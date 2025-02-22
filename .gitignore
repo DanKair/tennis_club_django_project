@@ -1,8 +1,9 @@
 # Database files
-**/backend_api/db.sqlite3
+**/tennis_club/db.sqlite3
+*/db.sqlite3
 
 # Media uploads
-**/backend_api/media/
+**/tennis_club/media/
 **/media/
 
 # Virtual environments
