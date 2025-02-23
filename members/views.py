@@ -8,7 +8,7 @@ from .serializers import PlayerSerializer
 
 # @api_view(['GET', 'POST'])
 # def list_players(request):
-#     def_get()
+#     def_get():
     
 class ListPlayersAPIView(APIView):
     def get(self, request):
@@ -21,3 +21,5 @@ class ListPlayersAPIView(APIView):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
 
+# class EditPlayersAPIView(APIView):
+    
