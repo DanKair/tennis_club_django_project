@@ -3,7 +3,7 @@ from members.models import Player
 
 
 # main logic for adding players to db
-# Use this is are your hint / template for adding new models to db
+# Use this as your hint / template for adding new models to db
 player1 = Player(first_name="Elena", last_name="Rybakina", email="elena_rybakina@example.com", age=25, matches_played=100)
 player1.save()
 player2 = Player(first_name="Alexander", last_name="Bublik", email="alex_bublik@example.com", age=27, matches_played=310)
